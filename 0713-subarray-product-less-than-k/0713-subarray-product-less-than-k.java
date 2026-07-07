@@ -12,6 +12,7 @@ class Solution {
                 prod = prod/nums[low];
                 low++;
             }
+            // accumulating subarrays in windows 
             count += high-low;
         
         }
