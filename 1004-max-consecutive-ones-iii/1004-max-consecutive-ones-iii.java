@@ -3,19 +3,22 @@ class Solution {
         int start=0;
         int end=0;
         int zeros=0;
+        int maxCount = 0;
 
-        while(end<nums.length){
+// Approach 1 : counting no of zeros by managing a zero counter
+// TC : more than O(N) but lesser than O(N^2)
+        for(end = 0; end < nums.length; end++){
             if(nums[end] == 0){
                 zeros++;
             }
-            end++;
             if(zeros>k){
                 if(nums[start] == 0){
                     zeros--;
                 }
                 start++;
             }
+            maxCount = Math.max(maxCount, end-start+1);
         }
-        return end-start;
+        return maxCount;
     }
 }
