@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1800-maximum-ascending-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1800-maximum-ascending-subarray-sum) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
+| [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
+| [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -79,4 +81,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0904-fruit-into-baskets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0904-fruit-into-baskets) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+## Segment Tree
+|  |
+| ------- |
+| [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
+## Simulation
+|  |
+| ------- |
+| [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 <!---LeetCode Topics End-->
