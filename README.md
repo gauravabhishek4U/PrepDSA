@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1800-maximum-ascending-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1800-maximum-ascending-subarray-sum) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0075-sort-colors) |
+| [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 ## Greedy
 |  |
 | ------- |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0904-fruit-into-baskets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0904-fruit-into-baskets) |
+| [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Segment Tree
