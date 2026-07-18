@@ -6,7 +6,8 @@ class Solution {
             return true;
         }
 
-        // Approach 1 : Using in-built method and regex
+       /*
+        // Approach 1 : Using in-built methods and regex
         // Clean the string: remove non-alphanumeric characters and lowercase it
         String cleaned = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         
@@ -14,42 +15,26 @@ class Solution {
         String reversed = new StringBuilder(cleaned).reverse().toString();
         
         return cleaned.equals(reversed);
+        */
 
         
+        // Best Optimal Soln : Using two pointers
+        // change string to lowercase and remove everthing except a-z and 0-9
+         s = s.toLowerCase().replaceAll("[^a-z0-9]","");
+         int left = 0, right = s.length()-1;
 
-        //private final static Pattern NON_ALPHANUMERIC = Pattern.compile("[^a-zA-Z]");
-       // private static final Pattern NON_ALPHANUMERIC = Pattern.compile("[^a-zA-Z0-9]");
+        while(left < right){
+            char leftChar = s.charAt(left);
+            char rightChar = s.charAt(right);
 
-    //    String copy =  s.toLowerCase();
+            if(leftChar != rightChar){
+                return false;
+            }
 
-        
-       // NON_ALPHANUMERIC.matcher(copy).replaceAll("");
-
-        // int left = 0, right = n-1;
-
-        // while(left <= right){
-        //     char leftChar = s.charAt(left);
-        //     char rightChar = s.charAt(right);
-
-        //     // if left char is not a character or digit
-        //     if(!Character.isLetterOrDigit(leftChar)){
-        //         left++;
-        //     }
-
-        //     // if right char is not a character or digit
-        //     if(!Character.isLetterOrDigit(rightChar)){
-        //         right--;
-        //     }
-
-        //     // if both are valid characters
-        //     if(Character.toLowerCase(leftChar) != Character.toLowerCase(rightChar)){
-        //         return false;
-        //     }
-
-        //     left++;
-        //     right--;
+            left++;
+            right--;
             
-        // }
-        // return true;
+        }
+        return true;
     }
 }
