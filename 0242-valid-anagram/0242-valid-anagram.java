@@ -7,6 +7,9 @@ class Solution {
         if(sLen != tLen){
             return false;
         }
+/*
+// Approach 1 : Using HashMaps and comapring them
+    // TC :: O(N)
 
         HashMap<Character, Integer> sMap = new HashMap<>();
         HashMap<Character, Integer> tMap = new HashMap<>();
@@ -25,7 +28,28 @@ class Solution {
         if(!tMap.equals(sMap)){
             return false;
         }
-        return true;
-        
+
+*/
+
+// Approach 2 : sort strings by converting them into character arrays, then check if they are equal
+
+    // convert to character array
+    char[] sChars = s.toCharArray();
+    char[] tChars = t.toCharArray();
+
+    // sort the character array
+    Arrays.sort(sChars);
+    Arrays.sort(tChars);
+
+    // convert back to strings
+    String newS = new String(sChars);
+    String newT = new String(tChars);
+
+    // check if they are equal
+    if(!newS.equals(newT)){
+        return false;
+    }
+
+    return true;      
     }
 }
