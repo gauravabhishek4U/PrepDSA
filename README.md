@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0075-sort-colors) |
+| [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Greedy
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0904-fruit-into-baskets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0904-fruit-into-baskets) |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0438-find-all-anagrams-in-a-string) |
