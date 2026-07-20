@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0018-4sum) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0042-trapping-rain-water) |
 ## Stack
 |  |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0005-longest-palindromic-substring) |
 | [0125-valid-palindrome](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [0316-remove-duplicate-letters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0316-remove-duplicate-letters) |
