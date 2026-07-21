@@ -3,27 +3,27 @@ class Solution {
         int n = s.length();
         String res = "";
 
-        for(int i = 0;i<n;i++){
-            // Odd length palindrome
-            int st = i,end = i;
-            while(st>=0&&end<n&&s.charAt(st)==s.charAt(end)){
-                st--;
-                end++;
+        for(int i = 0; i<n; i++){
+            for(int j = i; j<n; j++){
+                if(isPalindrome(s, i, j)){
+                    if((j-i+1) > res.length()){
+                        res = s.substring(i, j+1);
+                    }
+                }
             }
-            String temp = s.substring(st+1,end);
-            if(temp.length()>res.length())res=temp;
-
-            // Even length palindrome
-            st = i;
-            end = i+1;
-            while(st>=0&&end<n&&s.charAt(st)==s.charAt(end)){
-                st--;
-                end++;
-            }
-            temp = s.substring(st+1,end);
-            if(temp.length()>res.length())res=temp;
+            
         }
-
         return res;
+    }
+
+    private boolean isPalindrome(String s, int left, int right){
+        while(left < right){
+            if(s.charAt(left) != s.charAt(right)){
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
     }
 }
