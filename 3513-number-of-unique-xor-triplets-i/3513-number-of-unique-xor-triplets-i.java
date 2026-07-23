@@ -18,8 +18,9 @@ class Solution {
 
 */
 
-// USING Bit Smearing
 
+/*
+// USING Bit Smearing
 class Solution {
     public int uniqueXorTriplets(int[] nums) {
         int n = nums.length;
@@ -32,5 +33,16 @@ class Solution {
         m |= m >> 16;
         
         return (m + 1) >> (3 / (n + 1));
+    }
+}
+*/
+
+// Using built-in Libraries 
+
+class Solution {
+    public int uniqueXorTriplets(int[] nums) {
+        int n = nums.length;
+        
+        return 1 << (32 - Integer.numberOfLeadingZeros(n) - 3 / (n + 1));
     }
 }
