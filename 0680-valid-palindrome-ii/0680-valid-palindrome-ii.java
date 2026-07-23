@@ -5,7 +5,7 @@ class Solution {
 
         // Using two pointers method
         // Approach : Whenever characters match, we move inward. At the first mismatch, we have the option to skip either the left or the right character to try forming a palindrome.
-        // TC :: O(N)
+        // TC :: O(N^2)/2 i.e., N sqaured divided by 2
         // SC :: O(1)
         while (left < right) {
             if (s.charAt(left) == s.charAt(right)) {
@@ -22,9 +22,13 @@ class Solution {
         }
         return true;
     }  
+
+    // TC = O(N/2)
     private boolean isPalindrome(String s, int left, int right) {
         while (left < right) {
-            if (s.charAt(left++) != s.charAt(right--)) return false;
+            if (s.charAt(left) != s.charAt(right)) return false;
+            left++;
+            right--;
         }
         return true;
     }
