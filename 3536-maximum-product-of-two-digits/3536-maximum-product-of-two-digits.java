@@ -22,6 +22,7 @@ class Solution {
 }
 */
 
+/*
 // Brute Force Approach :: TC = O(n^2), SC = O(n)
 // Convert the integer into a string. Traverse every pair of digits using two nested loops.
 // Convert the characters into integers. Compute their product.
@@ -40,4 +41,24 @@ class Solution {
         return max;
     }
 }
+*/
 
+// Using Priority Queue. TC = O(n log 2) = O(n), SC = O(1)
+// Create a min-heap
+// Extract every digit from the number
+// Insert each digit into the heap.
+// If the heap size becomes greater than 2, remove the smallest element.
+// Multiply the remaining two digits.
+
+class Solution {
+    public int maxProduct(int n) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        while(n != 0){
+            int digit = n % 10;
+            pq.offer(digit);
+            if(pq.size() > 2) pq.poll();
+            n /= 10;
+        }
+        return pq.poll() * pq.poll();
+    }
+}
