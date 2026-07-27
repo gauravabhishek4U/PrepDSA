@@ -1,3 +1,7 @@
+/*
+
+// BRUTE FORCE : Using nested for loops
+// TC : O(N^2), SC = O(1)
 class Solution {
     public int maxProduct(int[] nums) {
         int n = nums.length;
@@ -11,5 +15,18 @@ class Solution {
             }
         }
         return ans;
+    }
+}
+*/
+
+// Approach : Using Sorting
+// Sort the array in ascending order and calculate the product of last two elements 
+// TC = O(log n), SC = O(1)
+
+class Solution{
+    public int maxProduct(int[] nums){
+        int n = nums.length;
+        Arrays.sort(nums);
+        return (nums[n-1]-1)*(nums[n-2]-1);
     }
 }
