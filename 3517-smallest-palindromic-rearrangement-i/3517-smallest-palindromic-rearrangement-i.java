@@ -29,6 +29,7 @@ class Solution {
 // By traversing the frequency array from 'a' to 'z', we automatically construct the smallest possible first half in lexographical order.
 // TC = O(N), SC = O(N)
 
+/*
 class Solution{
     public String smallestPalindrome(String s) {
         int[] freq = new int[26];
@@ -62,5 +63,35 @@ class Solution{
         }
 
         return left.toString() + right.toString();
+    }
+}
+
+*/
+
+// Another solution for same frequency array approach
+
+class Solution{
+    public String smallestPalindrome(String s){
+        int n = s.length();
+
+        // if n is odd then midChar will be the char in the original string at index n/2 
+        // else midChar will be an empty string.. like an imaginary line between two characters
+        String midChar = (n & 1) == 1 ? s.charAt(n/2) + "" : "";
+
+        StringBuilder leftHalf = new StringBuilder();
+        int[] freq = new int[26];
+
+        // creating frequency array till mid of the given string
+        for(int i=0; i<n/2; i++){
+            freq[s.charAt(i) - 'a']++;
+        } 
+
+        // building left half of the answer
+        for(int i=0; i<26; i++){
+            leftHalf.append(((char)(i+'a')+"").repeat(freq[i]));
+        }
+
+        // constructing final answer
+        return leftHalf.toString() + midChar + leftHalf.reverse().toString();
     }
 }
