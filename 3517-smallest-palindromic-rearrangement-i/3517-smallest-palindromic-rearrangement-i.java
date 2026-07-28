@@ -1,4 +1,6 @@
-//Approach (Split in half , Sort and form palindrome)
+/*
+
+// Better Approach (Split in half , Sort and form palindrome)
 //T.C : O(n log n)
 //S.C : O(1) (ignoring the space taken for sorting internally)
 class Solution {
@@ -18,5 +20,47 @@ class Solution {
         }
 
         return new String(chars);       
+    }
+}
+
+*/
+
+// Optimal Approach : create Frequency array, we only need characters that belong to first half of the palindrome
+// By traversing the frequency array from 'a' to 'z', we automatically construct the smallest possible first half in lexographical order.
+// TC = O(N), SC = O(N)
+
+class Solution{
+    public String smallestPalindrome(String s) {
+        int[] freq = new int[26];
+
+        // count the frequency of the each character
+        for(char ch : s.toCharArray()){
+            freq[ch - 'a']++;
+        }
+
+        StringBuilder left = new StringBuilder();
+        char middle = '\0';
+
+        // Build left half and final middle character
+        for(int i=0; i<26; i++){
+            for(int j=0; j<freq[i]/2; j++){
+                left.append((char)('a'+i));
+            }
+
+            // store the odd frequency character (if any)
+            if(freq[i]%2 == 1){
+                middle = (char)('a'+i);
+            }
+        }
+
+        // Build the right half, which is the reverse of the left half
+        StringBuilder right = new StringBuilder(left).reverse();
+
+        // constructing the final answer
+        if(middle != '\0'){
+            return left.toString() + middle + right.toString();
+        }
+
+        return left.toString() + right.toString();
     }
 }
