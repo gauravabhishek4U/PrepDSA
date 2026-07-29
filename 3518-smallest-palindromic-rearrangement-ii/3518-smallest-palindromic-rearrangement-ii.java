@@ -1,101 +1,97 @@
+//Approach (Factorisation + Cumulative Sum + Binary Search)
+//T.C : O(n × 26 × 26 × logk)
+//S.C : O(n) for additional string
 class Solution {
 
-    private static final long LIMIT = 1_000_000L;
+    long nCr(int n, int r, int k) {
+        //nCr == nC(n-r)
+        //5C3 == 5C2
+        //5C2 == 5C(5-2) = 5C3
+        r = Math.min(r, n - r); //nCr == nC(n-r)
+
+        long result = 1;
+
+        for (int i = 1; i <= r; i++) { //O(log2(k))
+            result = result * (n - r + i) / i; //result is becoming twice
+
+            if (result >= k)
+                return k;
+        }
+
+        return result;
+    }
 
     public String smallestPalindrome(String s, int k) {
+        int n = s.length();
 
-        int[] freq = new int[26];
-
-        for (char c : s.toCharArray()) {
-            freq[c - 'a']++;
+        char mid = ' ';
+        if (n % 2 == 1) { //odd length
+            mid = s.charAt(n / 2);
         }
 
-        String mid = "";
+        int[] count = new int[26];
+        for (int i = 0; i < n; i++) {
+            if (n % 2 == 1 && i == n / 2) continue; //mid character reserved for middle one
+            count[s.charAt(i) - 'a']++;
+        }
 
-        int[] half = new int[26];
-        int len = 0;
-
+        //half frequency will be used to build halfResult
         for (int i = 0; i < 26; i++) {
-            if ((freq[i] & 1) == 1) {
-                mid = String.valueOf((char) ('a' + i));
-            }
-            half[i] = freq[i] / 2;
-            len += half[i];
+            count[i] /= 2;
         }
 
-        long total = countWays(half, len);
+        StringBuilder halfResult = new StringBuilder();
+        int half = n / 2;
 
-        if (total < k) return "";
+        for (int i = 0; i < half; i++) { //O(n/2)
+            //I am trying to fill ith position
+            //What if I could never fill a character in ith position
+            boolean placedCharacter = false; //in ith position
+            for (int j = 0; j < 26; j++) { //which character to put
+                if (count[j] > 0) {
+                    count[j] -= 1;
 
-        StringBuilder left = new StringBuilder();
+                    //count number of ways
+                    long ways = 1;
+                    int letters = 0;
+                    for (int c = 0; c < 26; c++) {
+                        letters += count[c];
+                    }
 
-        while (len > 0) {
+                    for (int c = 0; c < 26; c++) {
+                        if (count[c] > 0) {
+                            ways *= nCr(letters, count[c], k); //log2(k)
+                            letters -= count[c];
+                        }
 
-            for (int c = 0; c < 26; c++) {
+                        if (ways >= k) {
+                            break;
+                        }
+                    }
 
-                if (half[c] == 0) continue;
+                    if (ways >= k) { //this block contains my kth one
+                        halfResult.append((char) (j + 'a')); //fixed this character at ith position
+                        placedCharacter = true;
+                        break;
+                    }
 
-                half[c]--;
-
-                long ways = countWays(half, len - 1);
-
-                if (ways >= k) {
-                    left.append((char) ('a' + c));
-                    len--;
-                    break;
-                } else {
-                    k -= ways;
-                    half[c]++;
+                    k -= ways; //when k >= ways
+                    count[j] += 1;
                 }
             }
+
+            if (placedCharacter == false)
+                return "";
         }
 
-        StringBuilder ans = new StringBuilder();
+        //halfResult + mid + (reverse of halfResult)
+        StringBuilder rev = new StringBuilder(halfResult);
+        rev.reverse(); //O(n/2)
 
-        ans.append(left);
-        ans.append(mid);
-        ans.append(new StringBuilder(left).reverse());
-
-        return ans.toString();
-    }
-
-    private long countWays(int[] half, int total) {
-
-        long res = 1;
-
-        int remaining = total;
-
-        for (int i = 0; i < 26; i++) {
-
-            int cnt = half[i];
-
-            if (cnt == 0) continue;
-
-            res *= nCrLimited(remaining, cnt);
-
-            if (res > LIMIT) return LIMIT;
-
-            remaining -= cnt;
+        if (mid != ' ') {
+            halfResult.append(mid);
         }
 
-        return Math.min(res, LIMIT);
-    }
-
-    private long nCrLimited(int n, int r) {
-
-        if (r > n) return 0;
-
-        r = Math.min(r, n - r);
-
-        long ans = 1;
-
-        for (int i = 1; i <= r; i++) {
-
-            ans = ans * (n - r + i) / i;
-
-            if (ans > LIMIT) return LIMIT;
-        }
-
-        return ans;
+        return halfResult.toString() + rev.toString();
     }
 }
