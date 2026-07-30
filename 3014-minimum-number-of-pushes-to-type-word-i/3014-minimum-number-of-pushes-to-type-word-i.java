@@ -1,3 +1,5 @@
+/*
+
 // word contains distinct lowercase english letters
 // each letter is mapped to only one key
 // so for first 8 letters : 1 push,
@@ -20,5 +22,16 @@ class Solution {
             ans = 48 + (n-24)*4;
         
         return ans;
+    }
+}
+*/
+
+class Solution{
+    public int minimumPushes(String word){
+        int push = 0;
+        for(int i=0; i< word.length(); i++){
+            push += (i/8)+1;
+        }
+        return push;
     }
 }
