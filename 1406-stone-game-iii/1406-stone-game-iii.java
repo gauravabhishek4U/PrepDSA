@@ -1,3 +1,7 @@
+
+//Approach-1 (Using simple resurion + memoization)
+// TC = O(n)
+
 class Solution {
     int n;
     // initializing DP array
@@ -8,7 +12,7 @@ class Solution {
         t = new int[n];
         Arrays.fill(t, Integer.MIN_VALUE);
 
-        int diff = solve(stoneValue, 0);
+        int diff = solve(stoneValue, 0); // Alice - Bob
 
         if(diff > 0) return "Alice";
         else if(diff < 0) return "Bob";
@@ -36,3 +40,4 @@ class Solution {
 
     }
 }
+
