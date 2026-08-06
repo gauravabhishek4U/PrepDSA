@@ -1,19 +1,21 @@
 class Solution {
     public int smallestNumber(int n, int t) {
-        while(productOfDigits(n) % t != 0){
+
+        while (n < 101) {
+            int digits = n;
+            int product = 1;
+
+            while (digits > 0) {
+                product *= digits % 10;
+                digits /= 10;
+            }
+
+            if (product % t == 0)
+                return n;
+
             n++;
         }
-        return n;
-    }
 
-    private int productOfDigits(int num){
-        int product = 1;
-
-        while(num != 0){
-            product *= num % 10;
-            num /= 10;
-        }
-
-        return product;
+        return 0;
     }
 }
