@@ -1,3 +1,4 @@
+/*
 // Optimal Solution Using Sliding Window and 2 Maps
 // TC : O(N), SC = O(m+n)
 class Solution {
@@ -44,6 +45,60 @@ class Solution {
                 if(tMap.containsKey(leftChar) && sMap.get(leftChar) < tMap.get(leftChar)){
                     count++;
                 }
+                left++;
+            }
+        }
+        return ans;
+    }
+}
+*/
+ 
+
+// Optimal Approach 2 : Using Sliding window and 1 Map
+// TC = O(N), SC = O(m)
+
+class Solution {
+    public String minWindow(String s, String t) {
+        
+        Map <Character, Integer> map = new HashMap<>();
+
+        // creating map with string t
+        for(char ch : t.toCharArray()){
+            map.put(ch, map.getOrDefault(ch, 0)+1);
+        }
+
+        int left = 0, count = t.length();
+        int minLen = Integer.MAX_VALUE;
+        String ans = "";
+        Map<Character, Integer> sMap = new HashMap<>();
+
+        // expansion phase by RIGHT pointer 
+        for(int right = 0; right < s.length(); right++){
+            char ch = s.charAt(right);
+
+            if(map.containsKey(ch)){
+                if(map.get(ch) > 0){
+                    count--;
+                }
+                map.put(ch, map.get(ch)-1);
+            }
+
+            // comparing the minimum length and framing the answer substring 
+            while(count == 0){
+                if(right - left +1 < minLen){
+                    minLen = right-left+1;
+                    ans = s.substring(left, right+1);
+                }
+
+                // shrinking phase by LEFT pointer
+                char leftChar = s.charAt(left);
+
+                if(map.containsKey(leftChar)){
+                    map.put(leftChar, map.get(leftChar) +1);
+                    if(map.get(leftChar) > 0){
+                        count++;
+                    }
+                }        
                 left++;
             }
         }
