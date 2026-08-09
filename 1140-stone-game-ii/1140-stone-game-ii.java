@@ -1,28 +1,47 @@
+//Recursion + Memo
+//T.C : O(n^3)
+//S.C : O(n^3)
 class Solution {
-    public int stoneGameII(int[] piles) {
-        int n = piles.length;
-        int[][] dp = new int[n][n + 1];
-        int[] suffixSum = new int[n];
-        
-        suffixSum[n - 1] = piles[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            suffixSum[i] = suffixSum[i + 1] + piles[i];
+    private int n;
+    private int[][][] t = new int[2][101][101]; // t[2][n+1][n+1] ~ O(n^3)
+    
+    private int solveForAlice(int[] piles, int person, int i, int M) {
+        if (i >= n) {
+            return 0;
         }
         
-        for (int i = n - 1; i >= 0; i--) {
-            for (int m = 1; m <= n; m++) {
-                if (i + 2 * m >= n) {
-                    dp[i][m] = suffixSum[i];
-                } else {
-                    int minOpponentScore = Integer.MAX_VALUE;
-                    for (int x = 1; x <= 2 * m; x++) {
-                        minOpponentScore = Math.min(minOpponentScore, dp[i + x][Math.max(m, x)]);
-                    }
-                    dp[i][m] = suffixSum[i] - minOpponentScore;
-                }
+        if (t[person][i][M] != -1) {
+            return t[person][i][M];
+        }
+        
+        // for Alice, person is 1, and we will calculate max value, so initializing result with -1
+        
+        // for Bob, person is 0, and we will calculate min value, so initializing result with Integer.MAX_VALUE
+        int result = (person == 1) ? -1 : Integer.MAX_VALUE;
+        int stones = 0;
+        
+        for (int x = 1; x <= Math.min(2 * M, n - i); x++) {
+            stones += piles[i + x - 1];
+            
+            if (person == 1) { // Alice
+                result = Math.max(result, stones + solveForAlice(piles, 0, i + x, Math.max(M, x)));
+            } else { // Bob
+                result = Math.min(result, solveForAlice(piles, 1, i + x, Math.max(M, x)));
             }
         }
         
-        return dp[0][1];
+        return t[person][i][M] = result;
+    }
+    
+    public int stoneGameII(int[] piles) {
+        n = piles.length;
+        
+        for (int[][] arr2D : t) {
+            for (int[] arr1D : arr2D) {
+                Arrays.fill(arr1D, -1);
+            }
+        }
+        
+        return solveForAlice(piles, 1, 0, 1);
     }
 }
