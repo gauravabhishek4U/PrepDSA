@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2799-count-complete-subarrays-in-an-array) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3536-maximum-product-of-two-digits) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2799-count-complete-subarrays-in-an-array) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
