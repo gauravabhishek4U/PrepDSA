@@ -4,6 +4,7 @@ class Solution {
         int sLen = s.length();
         int tLen = t.length();
 
+        // BASE CASE : If length are not equal then the given strings cannot be the anagrams
         if(sLen != tLen){
             return false;
         }
