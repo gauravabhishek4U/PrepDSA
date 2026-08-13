@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1800-maximum-ascending-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1800-maximum-ascending-subarray-sum) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2799-count-complete-subarrays-in-an-array) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 ## Simulation
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 ## Queue
 |  |
@@ -260,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0680-valid-palindrome-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
