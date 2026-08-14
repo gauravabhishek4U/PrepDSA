@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0018-4sum) |
 | [0042-trapping-rain-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0075-sort-colors) |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0209-minimum-size-subarray-sum) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0042-trapping-rain-water) |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0152-maximum-product-subarray) |
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0076-minimum-window-substring) |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -262,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0125-valid-palindrome) |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [0316-remove-duplicate-letters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0344-reverse-string) |
@@ -340,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Nim Game
 |  |
@@ -352,5 +357,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
+## Memoization
+|  |
+| ------- |
+| [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 <!---LeetCode Topics End-->
