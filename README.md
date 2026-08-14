@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0283-move-zeroes) |
+| [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0485-max-consecutive-ones](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0075-sort-colors) |
 | [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
+| [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0042-trapping-rain-water) |
 | [0152-maximum-product-subarray](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0152-maximum-product-subarray) |
+| [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
 | [0647-palindromic-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0647-palindromic-substrings) |
 | [0877-stone-game](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0877-stone-game) |
@@ -264,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0567-permutation-in-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0680-valid-palindrome-ii) |
@@ -323,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [3310-remove-methods-from-project](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
@@ -344,4 +349,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1510-stone-game-iv) |
+## Trie
+|  |
+| ------- |
+| [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 <!---LeetCode Topics End-->
