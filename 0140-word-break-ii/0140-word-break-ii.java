@@ -1,3 +1,7 @@
+//Approach-1 (Using simple backtracking)
+//T.C : O(2^n)
+//S.C : max depth of recursion is n (length of string s). You can say O(n) . You also have to store those sentences which is O(2^n)
+
 class Solution {
     private List<String> result;
     private Set<String> dict;
