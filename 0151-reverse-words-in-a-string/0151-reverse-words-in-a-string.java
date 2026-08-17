@@ -20,7 +20,11 @@ class Solution {
 
 */
 
+/*
 // Approach 2 : Using iteration and in-Built Methods
+// TC = O(N)
+// SC = O(N)
+
 class Solution {
     public String reverseWords(String s) {
 
@@ -42,5 +46,41 @@ class Solution {
 
         // returning the final ans string by trimming any whitespaces
         return ans.toString().trim();
+    }
+}
+
+*/
+
+
+// Approach 3 : two pointer and in built methods
+// TC = O(n)
+// SC = O(n)
+
+class Solution {
+    public String reverseWords(String s) {
+        String[] words = s.split(" ");
+        int left = 0;
+        int right = words.length - 1;
+
+        // reversing the string using two pointer
+        while (left < right) {
+            String temp = words[left];
+            words[left] = words[right];
+            words[right] = temp;
+            left++;
+            right--;
+        }
+
+        StringBuilder result = new StringBuilder();
+        for (String word : words) {
+            if (!word.isEmpty()) {
+                if (result.length() > 0) {
+                    result.append(" ");
+                }
+                result.append(word);
+            }
+        }
+
+        return result.toString();
     }
 }
