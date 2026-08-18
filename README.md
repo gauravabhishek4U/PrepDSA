@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1563-stone-game-v](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1563-stone-game-v) |
 | [1800-maximum-ascending-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1800-maximum-ascending-subarray-sum) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
 | [2029-stone-game-ix](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2029-stone-game-ix) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0680-valid-palindrome-ii) |
 | [1750-minimum-length-of-string-after-deleting-similar-ends](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1750-minimum-length-of-string-after-deleting-similar-ends) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3477-fruits-into-baskets-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3477-fruits-into-baskets-ii) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3501-maximize-active-section-with-trade-ii) |
