@@ -1,11 +1,17 @@
 // Approach : two pointer and string comparison
-// TC = O(N), where N is the length of string haystack
+// TC = O(N ^ 2), where N is the length of string haystack
 // SC =  O(1)
 
 class Solution {
     public int strStr(String haystack, String needle) {
         int nLen = needle.length();
         int hLen = haystack.length();
+
+        // Corner case : if length of needle is greater than the length of haystack then NO occurrence will be found.
+        // so return -1
+        if(nLen > hLen){
+            return -1;
+        }
 
         int left = 0, right = 0;
         for(left = 0; left <= hLen - nLen; left++){
