@@ -1,6 +1,6 @@
-// Approach : two pointer and string comparison
-// TC = O(N ^ 2), where N is the length of string haystack
-// SC =  O(1)
+// Approach : Two pointer and string comparison
+// TC = O(N), N is the length of haystack
+// SC = O(1)
 
 class Solution {
     public int strStr(String haystack, String needle) {
@@ -14,16 +14,18 @@ class Solution {
         }
 
         int left = 0, right = 0;
-        for(left = 0; left <= hLen - nLen; left++){
-            for(right = left; right <= left + nLen; right++){
-                String temp = haystack.substring(left, right);
 
-                // // checking if both strings are equal, then return the starting index which is left index
-                if(temp.equals(needle)){
-                    return left;
-                }
+        while(left <= hLen - nLen){
+            right = left + nLen;
+
+            String temp = haystack.substring(left, right);
+
+            // checking if string temp is equal to string needle
+            if(temp.equals(needle)){
+                return left;
             }
+            left++;
         }
-        return -1;
+       return -1; 
     }
 }
