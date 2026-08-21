@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1800-maximum-ascending-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1800-maximum-ascending-subarray-sum) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [1991-find-the-middle-index-in-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1991-find-the-middle-index-in-array) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
 | [2029-stone-game-ix](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2029-stone-game-ix) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0724-find-pivot-index) |
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
+| [1991-find-the-middle-index-in-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1991-find-the-middle-index-in-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3312-sorted-gcd-pair-queries) |
 ## Hash Table
 |  |
