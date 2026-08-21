@@ -1,3 +1,9 @@
+/*
+Approach : Prefix Sum
+TC = O(N)
+SC = O(N)
+*/
+
 class Solution {
     public int subarraySum(int[] nums, int k) {
         int n = nums.length;
