@@ -11,8 +11,10 @@ class Solution {
             sum += nums[i];
             int restSum = sum - k;
 
-            int seen = freq.getOrDefault(restSum,0);
-            count += seen;
+            if(freq.containsKey(restSum)){
+                count += freq.get(restSum);
+            }
+
             freq.put(sum, freq.getOrDefault(sum,0)+1);
         }
 
