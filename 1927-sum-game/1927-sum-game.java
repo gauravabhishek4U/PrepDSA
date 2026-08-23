@@ -1,40 +1,51 @@
+/*
+Approach : Greedy
+TC = O(N)
+SC = O(1)
+*/
 class Solution {
     public boolean sumGame(String num) {
 
         int n = num.length();
 
         int leftSum = 0, rightSum = 0;
-        int leftQ = 0, rightQ = 0;
+        int qnLeft = 0, qnRight = 0;
 
-        // Check left half
-        for (int i = 0; i < n / 2; i++) {
+        for (int i = 0; i < n; i++) {
+            char ch = num.charAt(i);
 
-            if (num.charAt(i) == '?') {
-                leftQ++;
-            } else {
-                leftSum += num.charAt(i) - '0';
+            if (ch == '?') {
+                if(i < n/2){
+                    qnLeft++;
+                }
+                else{
+                    qnRight++;
+                }
+            
+            }
+            // ch is a number
+            else {
+                if(i < n/2){
+                    leftSum += ch - '0';
+                }
+                else{
+                    rightSum += ch - '0';
+                }
             }
         }
 
-        // Check right half
-        for (int i = n / 2; i < n; i++) {
+        int qnTotal = qnLeft + qnRight;
 
-            if (num.charAt(i) == '?') {
-                rightQ++;
-            } else {
-                rightSum += num.charAt(i) - '0';
-            }
-        }
-
-        // Odd number of '?' → Alice wins
-        if ((leftQ + rightQ) % 2 == 1) {
+        // checking no of qstn marks is even or odd 
+        if (qnTotal % 2 == 1) { // if it odd, Alice wins
             return true;
         }
 
-        // Bob can make the sums equal
-        if (leftSum - rightSum
-                == 9 * (rightQ - leftQ) / 2) {
-            return false;
+        int left = (2 * leftSum) + (9 * qnLeft);
+        int right = (2 * rightSum) + (9 * qnRight);
+
+        if (left == right){
+            return false; // BOB wins
         }
 
         // Otherwise Alice wins
