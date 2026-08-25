@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
+| [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1406-stone-game-iii) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
+| [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1872-stone-game-viii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1872-stone-game-viii) |
 | [1991-find-the-middle-index-in-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1991-find-the-middle-index-in-array) |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1260-shift-2d-grid](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1260-shift-2d-grid) |
+| [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
