@@ -25,7 +25,7 @@ class Solution {
 Approach : Array Search
 TC = O(N^2)
 SC = O(1)
-*/
+
 
 class Solution {
     public int missingMultiple(int[] nums, int k) {
@@ -46,5 +46,30 @@ class Solution {
                 return value;
             }
         }
+    }
+}
+
+*/
+
+/*
+Approach : Boolean Array
+TC = O(n)
+SC = O(1)
+*/
+class Solution{
+    public int missingMultiple(int[] nums, int k){
+        
+        boolean[] seen = new boolean[101];
+
+        for(int num:nums){
+            seen[num] = true;
+        }
+
+        for(int value = k; ; value += k){
+            if(value > 100 || !seen[value]){
+                return value;
+            }
+        }
+      
     }
 }
