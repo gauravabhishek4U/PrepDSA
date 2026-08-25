@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0485-max-consecutive-ones](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
+| [0523-continuous-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0523-continuous-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0713-subarray-product-less-than-k) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0523-continuous-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0567-permutation-in-string) |
@@ -282,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
+| [0523-continuous-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0523-continuous-subarray-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
@@ -467,4 +471,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0523-continuous-subarray-sum) |
 <!---LeetCode Topics End-->
