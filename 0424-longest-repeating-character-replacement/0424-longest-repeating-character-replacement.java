@@ -1,3 +1,8 @@
+/*
+Approach : Optimal approach, using sliding window
+TC = O(N)
+SC = O(N)
+*/
 class Solution {
     public int characterReplacement(String s, int k) {
 
