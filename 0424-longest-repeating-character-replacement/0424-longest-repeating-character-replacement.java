@@ -11,7 +11,7 @@ class Solution {
             maxFreq = Math.max(maxFreq, map.get(c));
 
             // shrinking phase
-            // if map size is less than less than the original size of the string
+            // if map size is less than the original size of the string
             // then it means the string has duplicate characters
 
             while((high-low+1)-maxFreq > k){
