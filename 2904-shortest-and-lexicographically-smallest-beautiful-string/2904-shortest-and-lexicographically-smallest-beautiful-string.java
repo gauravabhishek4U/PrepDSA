@@ -1,46 +1,39 @@
 /*
-Approach : Sliding Window
+Approach : Position of ones
 TC = O(N^2)
 SC = O(N)
 */
 class Solution {
     public String shortestBeautifulSubstring(String s, int k) {
-        int n = s.length();
 
-        int left = 0;
-        int ones = 0;
+        List<Integer> pos = new ArrayList<>();
+
+        // Store positions of all 1s
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '1') {
+                pos.add(i);
+            }
+        }
+
+        // Not enough 1s
+        if (pos.size() < k)
+            return "";
 
         String ans = "";
 
-        for (int right = 0; right < n; right++) {
+        // Every consecutive group of k ones
+        for (int i = 0; i + k - 1 < pos.size(); i++) {
 
-            if (s.charAt(right) == '1')
-                ones++;
+            int start = pos.get(i);
+            int end = pos.get(i + k - 1);
 
-            // Too many ones -> move left
-            while (ones > k) {
-                if (s.charAt(left) == '1')
-                    ones--;
+            String cur = s.substring(start, end + 1);
 
-                left++;
-            }
+            if (ans.isEmpty() ||
+                cur.length() < ans.length() ||
+                (cur.length() == ans.length() && cur.compareTo(ans) < 0)) {
 
-            // We have exactly k ones
-            if (ones == k) {
-
-                // Remove unnecessary leading zeros
-                while (left < right && s.charAt(left) == '0') {
-                    left++;
-                }
-
-                String cur = s.substring(left, right + 1);
-
-                if (ans.isEmpty() ||
-                    cur.length() < ans.length() ||
-                    (cur.length() == ans.length() && cur.compareTo(ans) < 0)) {
-
-                    ans = cur;
-                }
+                ans = cur;
             }
         }
 
