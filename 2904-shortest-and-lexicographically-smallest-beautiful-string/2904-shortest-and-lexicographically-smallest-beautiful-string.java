@@ -1,38 +1,45 @@
 /*
-Approach : Brute Force
-TC = O(N^3)
-SC = O(1)
+Approach : Sliding Window
+TC = O(N^2)
+SC = O(N)
 */
 class Solution {
     public String shortestBeautifulSubstring(String s, int k) {
-        String ans = "";
         int n = s.length();
 
-        for (int i = 0; i < n; i++) {
+        int left = 0;
+        int ones = 0;
 
-            int oneCnt = 0;
-            StringBuilder cur = new StringBuilder();
+        String ans = "";
 
-            for (int j = i; j < n; j++) {
+        for (int right = 0; right < n; right++) {
 
-                cur.append(s.charAt(j));
+            if (s.charAt(right) == '1')
+                ones++;
 
-                if (s.charAt(j) == '1')
-                    oneCnt++;
+            // Too many ones -> move left
+            while (ones > k) {
+                if (s.charAt(left) == '1')
+                    ones--;
 
-                // More than k ones can never become valid again
-                if (oneCnt > k)
-                    break;
+                left++;
+            }
 
-                if (oneCnt == k) {
-                    String curStr = cur.toString();
+            // We have exactly k ones
+            if (ones == k) {
 
-                    if (ans.isEmpty() ||
-                        curStr.length() < ans.length() ||
-                        (curStr.length() == ans.length() && curStr.compareTo(ans) < 0)) {
+                // Remove unnecessary leading zeros
+                while (left < right && s.charAt(left) == '0') {
+                    left++;
+                }
 
-                        ans = curStr;
-                    }
+                String cur = s.substring(left, right + 1);
+
+                if (ans.isEmpty() ||
+                    cur.length() < ans.length() ||
+                    (cur.length() == ans.length() && cur.compareTo(ans) < 0)) {
+
+                    ans = cur;
                 }
             }
         }
