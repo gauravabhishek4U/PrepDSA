@@ -1,8 +1,8 @@
 /*
-Approach : Sliding Window + Frequency Array
+Approach : Sliding Window + HashMap
 TC = O(N), where N = length of string s
-SC = O(1)
-Solved: 2
+SC = O(N)
+Solved: 1
 */
 
 class Solution {
@@ -15,30 +15,46 @@ class Solution {
             return ans;
         }
 
-        // initialise Frequency Arrays for both strings
-        int[] pFreq = new int[26];
-        int[] sFreq = new int[26];
+        // create hashmaps to store frequency of characters for both strings
+        HashMap <Character, Integer> sMap = new HashMap<>();
+        HashMap <Character, Integer> pMap = new HashMap<>();
 
         // create first window
         for(int i = 0; i < pLen; i++){
-            sFreq[s.charAt(i) - 'a']++;
-            pFreq[p.charAt(i) - 'a']++;
+            sMap.put(s.charAt(i), sMap.getOrDefault(s.charAt(i), 0) +1);
+            pMap.put(p.charAt(i), pMap.getOrDefault(p.charAt(i), 0) +1);
         }
 
-        // check first window if they are equal
-        if(Arrays.equals(sFreq, pFreq)){
+        // check first window (index 0) if they are equal
+        if(sMap.equals(pMap)){
             ans.add(0);
         }
 
-        // create second and further sliding windows
-        for(int i = pLen; i < sLen; i++){
-            sFreq[s.charAt(i) - 'a'] ++; // adding the element at right
-            sFreq[s.charAt(i - pLen) - 'a'] --; // removing the element at left
+        int left = 0, right = pLen;
 
-            // compare if this array of window elements exists in pFreq
-            if(Arrays.equals(pFreq, sFreq)){
-                ans.add(i-pLen+1);
+        while(right < sLen){
+            char rightChar = s.charAt(right);
+
+            // expansion phase of sliding window
+            // add the character present at right index into the map
+            sMap.put(rightChar, sMap.getOrDefault(rightChar, 0) +1);
+
+            // shrinking phase of sliding window
+            // if size of window is greater than pLen, then shrink the window
+            while(right - left +1 > pLen){
+                char leftChar = s.charAt(left);
+                sMap.put(leftChar, sMap.get(leftChar) -1);
+                if(sMap.get(leftChar) == 0){
+                    sMap.remove(leftChar);
+                }
+                left++;
             }
+
+            // if map for new window is equal to pMap, then add the left index to answer list
+            if(sMap.equals(pMap)){
+                ans.add(left);
+            }
+            right++;
         }
         
         return ans;
