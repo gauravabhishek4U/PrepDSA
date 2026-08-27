@@ -1,3 +1,10 @@
+/*
+Approach : Sliding Window + Frequency Array
+TC = O(N), where N = length of string s
+SC = O(1)
+Solved: 2
+*/
+
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         int pLen = p.length();
