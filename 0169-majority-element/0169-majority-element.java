@@ -1,3 +1,11 @@
+/*
+Approach 1 : using hashmap
+TC = O(N)
+SC = O(N), for storing entire N elements of nums in hashMap
+Solved : 1
+*/
+
+/*
 class Solution {
     public int majorityElement(int[] nums) {
 
@@ -22,5 +30,32 @@ class Solution {
             }
         }
          return ans;
+    }
+}
+*/
+
+/*
+Approach 2 : Moore Voting Algorithm, using two variables
+TC: O(N)
+SC = O(1)
+*/
+
+class Solution {
+    public int majorityElement(int[] nums) {
+        int count = 0, result = 0;
+
+        for(int num : nums){
+            if(count == 0){
+                result = num;
+            }
+
+            if(num != result){
+                count--;
+            }
+            else{
+                count++;
+            }
+        }
+        return result;
     }
 }
