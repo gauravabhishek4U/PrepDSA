@@ -1,3 +1,9 @@
+/*
+Approach : Sliding Window
+TC = O(N)
+SC = O(N)
+*/
+
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         int low = 0, high = 0, sum = 0;
