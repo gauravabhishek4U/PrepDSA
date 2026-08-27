@@ -1,3 +1,10 @@
+/*
+Approach: sliding window and hashset
+TC = O(N)
+SC = O(N)
+Solved = 2
+*/
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int ans = 0;
