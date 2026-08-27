@@ -2,7 +2,9 @@
 Approach : Sliding Window + HashMap
 TC = O(N), where N = length of string s
 SC = O(N)
-Solved: 1
+Solved: 2
+-> In this approach, we do not check for the first window and other windows separately
+-> All windows are checked together with a generic sliding window concept
 */
 
 class Solution {
@@ -21,16 +23,18 @@ class Solution {
 
         // create first window
         for(int i = 0; i < pLen; i++){
-            sMap.put(s.charAt(i), sMap.getOrDefault(s.charAt(i), 0) +1);
+          //  sMap.put(s.charAt(i), sMap.getOrDefault(s.charAt(i), 0) +1);
             pMap.put(p.charAt(i), pMap.getOrDefault(p.charAt(i), 0) +1);
         }
 
-        // check first window (index 0) if they are equal
-        if(sMap.equals(pMap)){
-            ans.add(0);
-        }
+        // check for the first window starting from index 0
+        // if(sMap.equals(pMap)){
+        //     ans.add(0);
+        // }
 
-        int left = 0, right = pLen;
+        int left = 0;
+        // int right = pLen (to check from second sliding window, we need right at plen)
+        int right = 0;
 
         while(right < sLen){
             char rightChar = s.charAt(right);
