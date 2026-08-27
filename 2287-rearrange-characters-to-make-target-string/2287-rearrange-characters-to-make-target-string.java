@@ -1,9 +1,9 @@
 /*
-Approach: Count Matching using Frequency Array
+Approach 1: Count Matching using Frequency Array
 TC = O(N), N is the length of input String s
 SC = O(1)
 Solved : 1
-*/
+
 
 class Solution {
     public int rearrangeCharacters(String s, String target) {
@@ -40,5 +40,42 @@ class Solution {
             }
         }
         return minVal;
+    }
+}
+
+*/
+
+/*
+Approach 2: Using hashMaps
+TC = O(N), N is the length of input String s
+SC = O(N)
+Solved : 1
+*/
+class Solution {
+    public int rearrangeCharacters(String s, String target) {
+
+        // hashmap to store frequency of characters in string s
+        HashMap <Character, Integer> sMap = new HashMap<>();
+        for(char ch : s.toCharArray()){
+            sMap.put(ch, sMap.getOrDefault(ch, 0)+1);
+        }
+
+        // hashmap to store frequency of characters in string target
+        HashMap <Character, Integer> tMap = new HashMap<>();
+        for(char ch : target.toCharArray()){
+            tMap.put(ch, tMap.getOrDefault(ch, 0)+1);
+        }
+
+        int maxCopies = Integer.MAX_VALUE;
+
+        // calculating the number of available and required frequency for each character in target
+        for(char ch : tMap.keySet()){
+            int available = sMap.getOrDefault(ch,0);
+            int required = tMap.get(ch);
+
+            maxCopies = Math.min(maxCopies, available / required);
+        }
+
+        return maxCopies;
     }
 }
