@@ -1,5 +1,5 @@
 /*
-Approach: sliding window and hashset
+Approach: sliding window and hashMap
 TC = O(N)
 SC = O(N)
 Solved = 2
@@ -7,31 +7,34 @@ Solved = 2
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
+        int n = s.length();
+
+        // edge case
+        if(n==1) return n;
+
+        int left=0, right=0;
+        HashMap <Character, Integer> map = new HashMap<>();
         int ans = 0;
-        int len = s.length();
-        int l=0, r=0;
-        Set<Character> set = new HashSet<>();
 
+        while(right < n){
 
-        for( r=0; r<len; r++){
-            // expand sliding window
-            // if its not present in set, then add it in set
-            // calculate the maximum length
-            if(!set.contains(s.charAt(r)))
-            {
-                set.add(s.charAt(r));
-                ans = Math.max(ans, r -l +1);
+            // expand the window by adding element from the right
+            char ch = s.charAt(right);
+            map.put(ch, map.getOrDefault(ch, 0)+1);
+
+            // shrink the window
+            // if ch exists in map, then remove characters from left end
+            // remove it from map and increase left pointer
+            while(map.get(ch)>1){
+                char lChar = s.charAt(left);
+                map.put(lChar, map.get(lChar)-1);
+                left++;
             }
-            else{
-                // shrink sliding window from left
-                // if its present in set, remove the element from left end
-                // increase left pointer
-                while(set.contains(s.charAt(r))){
-                    set.remove(s.charAt(l));
-                l++;
-                }
-                set.add(s.charAt(r));
-            }
+
+            // calculate the longest substring length and increment right pointer
+            ans = Math.max(ans, right-left+1);
+            right++;
+            
         }
         return ans;
     }
