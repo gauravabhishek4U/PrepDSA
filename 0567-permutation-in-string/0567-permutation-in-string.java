@@ -1,5 +1,9 @@
-// Optimised approach using sliding window
-// TC = O(n), SC = O(2n) for using two freq array
+/*
+Optimised approach using sliding window and frequency array
+TC = O(n), SC = O(2n) for using two freq array
+Solved: 3
+*/
+
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int n = s1.length();
@@ -20,13 +24,15 @@ class Solution {
         // Slide the window over s2
         int i = 0; // left index of the sliding window
         int j = 0; // right index of the sliding window
+
         while (j < m) {
             // Include a new character from the right end of the window
             s2_freq[s2.charAt(j) - 'a']++;
 
             // Check if the current window size matches the size of s1
-            if (j - i + 1 > n) {
+            while (j - i + 1 > n) {
                 // If we have passed the size of s1, we need to remove the leftmost character
+                // and increase the left pointer
                 s2_freq[s2.charAt(i) - 'a']--;
                 i++;
             }
