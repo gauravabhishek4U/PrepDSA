@@ -1,6 +1,10 @@
 /*
-// Optimal Solution Using Sliding Window and 2 Maps
-// TC : O(N), SC = O(m+n)
+Optimal Solution Using Sliding Window and 2 Maps
+TC : O(N), SC = O(m+n)
+Solved = 2
+*/
+
+/*
 class Solution {
     public String minWindow(String s, String t) {
         
@@ -53,34 +57,35 @@ class Solution {
 }
 */
  
-
-// Optimal Approach 2 : Using Sliding window and 1 Map
-// TC = O(N), SC = O(m)
+/*
+Optimal Approach 2 : Using Sliding window and 1 Map
+TC = O(N), SC = O(m)
+Solved : 2
+*/
 
 class Solution {
     public String minWindow(String s, String t) {
         
-        Map <Character, Integer> map = new HashMap<>();
+        Map <Character, Integer> Tmap = new HashMap<>();
 
         // creating map with string t
         for(char ch : t.toCharArray()){
-            map.put(ch, map.getOrDefault(ch, 0)+1);
+            Tmap.put(ch, Tmap.getOrDefault(ch, 0)+1);
         }
 
         int left = 0, count = t.length();
         int minLen = Integer.MAX_VALUE;
         String ans = "";
-        Map<Character, Integer> sMap = new HashMap<>();
 
         // expansion phase by RIGHT pointer 
         for(int right = 0; right < s.length(); right++){
             char ch = s.charAt(right);
 
-            if(map.containsKey(ch)){
-                if(map.get(ch) > 0){
+            if(Tmap.containsKey(ch)){
+                if(Tmap.get(ch) > 0){
                     count--;
                 }
-                map.put(ch, map.get(ch)-1);
+                Tmap.put(ch, Tmap.get(ch)-1);
             }
 
             // comparing the minimum length and framing the answer substring 
@@ -93,9 +98,10 @@ class Solution {
                 // shrinking phase by LEFT pointer
                 char leftChar = s.charAt(left);
 
-                if(map.containsKey(leftChar)){
-                    map.put(leftChar, map.get(leftChar) +1);
-                    if(map.get(leftChar) > 0){
+                if(Tmap.containsKey(leftChar)){
+                    Tmap.put(leftChar, Tmap.get(leftChar) +1);
+                   
+                    if(Tmap.get(leftChar) > 0){
                         count++;
                     }
                 }        
