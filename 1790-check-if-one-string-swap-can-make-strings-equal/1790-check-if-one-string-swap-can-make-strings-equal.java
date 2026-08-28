@@ -1,7 +1,8 @@
 /*
-Approach : Brute force 
+Approach 1 : String Manipulation and Comparison
 TC : O(N)
 SC = O(1)
+Solved : 1
 */
 class Solution {
     public boolean areAlmostEqual(String s1, String s2) {
