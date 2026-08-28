@@ -1,13 +1,14 @@
 //Approach (Greedy + backtracking)
 //T.C : O(26*n) ~ O(n)
 //S.C : O(n)
+
 class Solution {
 
     String result = "";
     char midChar = '$';
     int half = 0;
 
-    boolean solve(StringBuilder curr, int[] count, String target, int i, boolean greater) {
+    private boolean solve(StringBuilder curr, int[] count, String target, int i, boolean greater) {
         if (i == half) {
 
             String leftHalf = curr.toString();                       // left half
