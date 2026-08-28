@@ -1,43 +1,37 @@
 /*
-Approach 1 : String Manipulation and Comparison
-TC : O(N)
-SC = O(1)
-Solved : 1
+Approach-2 (using counting only. No map required)
+T.C : O(n)
+S.C : O(1)
+Solved : 2
 */
 class Solution {
     public boolean areAlmostEqual(String s1, String s2) {
         int n = s1.length();
 
-        // Base case : If both the strings are equal, return true
-        if(s1.equals(s2)){
+        if (s1.equals(s2)) {
             return true;
         }
 
-        List<Integer> indices = new ArrayList<>();
+        int diffs = 0;
 
-        // marking down the indices that mismatches and need to be swapped
-        for(int i = 0; i<n; i++){
-            if(s1.charAt(i) != s2.charAt(i)){
-                indices.add(i);
+        int firstIdx = 0;
+        int secondIdx = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (s1.charAt(i) != s2.charAt(i)) {
+                diffs++;
+
+                if (diffs > 2) {
+                    return false;
+                } else if (diffs == 1) {
+                    firstIdx = i;
+                } else {
+                    secondIdx = i;
+                }
             }
         }
 
-        // max no of swap will be one only if two indexes are there to be swapped
-        if(indices.size() == 2){
-            char[] strArr = s2.toCharArray();
-            char temp = strArr[indices.get(0)];
-            strArr[indices.get(0)] = strArr[indices.get(1)];
-            strArr[indices.get(1)] = temp;
-
-            String newStr = new String(strArr);
-
-            if(s1.equals(newStr)){
-                return true;
-            }
-            
-        }
-       
-        return false;
-
+        // checking if characters at two different indexes are same in s1 and s2
+        return s1.charAt(firstIdx) == s2.charAt(secondIdx) && s1.charAt(secondIdx) == s2.charAt(firstIdx);
     }
 }
