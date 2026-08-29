@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2799-count-complete-subarrays-in-an-array) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2963-count-the-number-of-good-partitions](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2963-count-the-number-of-good-partitions) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -519,4 +521,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0169-majority-element) |
+## Union-Find
+|  |
+| ------- |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 <!---LeetCode Topics End-->
