@@ -1,3 +1,8 @@
+/*
+Approach : Sieve of Eratosthenes
+TC = O(n log n)
+SC = O(N)
+*/
 class Solution {
     public int countPrimes(int n) {
 
