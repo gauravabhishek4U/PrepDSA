@@ -1,7 +1,8 @@
 /*
-Approach : Suffix minimum
+Approach : Suffix minimum and prefix max
 TC : O(N)
 SC = O(1)
+Solved = 1
 */
 class Solution {
     public int firstStableIndex(int[] nums, int k) {
