@@ -1,32 +1,49 @@
-//Approach-2 (Bottom UP DP)
-//T.C : O(m*n)
-//S.C : O(m*n)
+/*
+Approach: Recursion + Memoization
+T.C : O(m*n)
+S.C : O(m*n)
+solved : 1
+*/
+
 class Solution {
+    int[][] dp = new int[1001][1001];
+    int solve(String s, String t, int m, int n) {
+
+        // if we have reached till the end of string t
+        if(n == 0)
+            return dp[m][n] = 1;
+
+        // if we have reached till the end of string s
+        if(m == 0)
+            return dp[m][n] = 0;
+        
+        if(dp[m][n] != -1)
+            return dp[m][n];
+        
+        /*
+        if character at s and t matches, then check for two conditions:
+        -> if next character of s matches with the next character of t
+        -> if nect character of s matches with the same character of t
+        */
+       if(s.charAt(m-1) == t.charAt(n-1))
+            return dp[m][n] = solve(s, t, m-1, n) + solve(s, t, m-1, n-1);
+
+        // if the present character of s and t does not match
+        else
+            return dp[m][n] = solve(s, t, m-1, n);
+    }
+
     public int numDistinct(String s, String t) {
         int m = s.length();
         int n = t.length();
 
-        
-        long[][] dp = new long[m+1][n+1];
-        
-        for(int row = 0; row<m+1; row++) {
-            dp[row][0] = 1;
-        }
-        
-        for(int col = 1; col<n+1; col++) {
-            dp[0][col] = 0;
-        }
-        
-        for(int i = 1; i<m+1; i++) {
-            for(int j = 1; j<n+1; j++) {
-                if(s.charAt(i-1) == t.charAt(j-1))
-                    dp[i][j] = dp[i-1][j-1] + dp[i-1][j];
-                else
-                    dp[i][j] = dp[i-1][j];
-            }
-        }
-        
-        
-        return (int) dp[m][n];
+        // if length of s is smaller than length of t, then there will be no subsequence
+        if(m < n)
+            return 0;
+
+        for(int[] row : dp)
+            Arrays.fill(row, -1);
+        return solve(s, t, m, n);
     }
 }
+
