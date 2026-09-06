@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0053-maximum-subarray) |
+| [0115-distinct-subsequences](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0115-distinct-subsequences) |
 | [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0152-maximum-product-subarray) |
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0076-minimum-window-substring) |
+| [0115-distinct-subsequences](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0125-valid-palindrome) |
 | [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0151-reverse-words-in-a-string) |
