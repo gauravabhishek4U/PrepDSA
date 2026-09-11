@@ -1,9 +1,9 @@
 /*
-Approach : Set and Number formation
+Approach 1 : Set and Number formation
 TC : O(N^3)
-SC : O(N)
+SC : O(M) — M = number of distinct valid numbers in the set
 Solved : 1
-*/
+
 class Solution {
     public int totalNumbers(int[] digits) {
         int n = digits.length;
@@ -36,5 +36,51 @@ class Solution {
             }
         }
         return set.size();
+    }
+
+*/
+
+/*
+Approach 2 : Using frequency array
+TC : O(N)
+SC : O(1)
+*/
+
+class Solution{
+    public int totalNumbers(int[] digits){
+
+        int[] freq = new int[10];
+
+        // creating frequency array
+        for(int d : digits){
+            freq[d]++;
+        }
+
+        int count = 0;
+
+        // digit selection for hundredth place
+        for(int h = 1; h <= 9; h++){
+            if(freq[h] == 0) continue;
+            freq[h]--;
+
+            // digit selection for tenth place
+            for(int t = 0; t <= 9; t++){
+                if(freq[t] == 0) continue;
+                freq[t]--;
+                
+                // digit selection for unit place (should be even, so only 0,2,4,6,8 is allowed)
+                for(int u = 0; u <= 8; u += 2){
+                    if(freq[u] > 0){
+                        count++;
+                    }
+                }
+                // restore back the frequency for tenth place for next evaluation
+                freq[t]++;
+            }
+
+            // restore back the frequency for hundredth place for next evaluation
+            freq[h]++;
+        }
+        return count;
     }
 }
