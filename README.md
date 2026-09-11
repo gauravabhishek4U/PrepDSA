@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
 | [2029-stone-game-ix](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2091-removing-minimum-and-maximum-from-array) |
+| [2094-finding-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2094-finding-3-digit-even-numbers) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2511-maximum-enemy-forts-that-can-be-captured](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2511-maximum-enemy-forts-that-can-be-captured) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [2094-finding-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2094-finding-3-digit-even-numbers) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1790-check-if-one-string-swap-can-make-strings-equal](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1790-check-if-one-string-swap-can-make-strings-equal) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
+| [2094-finding-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2094-finding-3-digit-even-numbers) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2799-count-complete-subarrays-in-an-array) |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0204-count-primes) |
 | [1995-count-special-quadruplets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1995-count-special-quadruplets) |
+| [2094-finding-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2094-finding-3-digit-even-numbers) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3483-unique-3-digit-even-numbers) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3499-maximize-active-section-with-trade-i) |
@@ -463,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
+| [2094-finding-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2094-finding-3-digit-even-numbers) |
 | [3483-unique-3-digit-even-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3483-unique-3-digit-even-numbers) |
 ## Game Theory
 |  |
