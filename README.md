@@ -362,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0523-continuous-subarray-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
+| [0836-rectangle-overlap](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1406-stone-game-iii) |
@@ -617,4 +618,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0142-linked-list-cycle-ii) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
