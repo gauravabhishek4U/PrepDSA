@@ -1,3 +1,12 @@
+/*
+Approach : Mathematical Observation : 
+    Two rectangles overlap only if they have:
+            - some common width AND some common height
+
+TC : O(1)
+SC : O(1)
+Solevd : 1
+*/
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int left = Math.max(rec1[0], rec2[0]);
