@@ -197,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1563-stone-game-v) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1872-stone-game-viii) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1140-stone-game-ii) |
 | [1314-matrix-block-sum](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1314-matrix-block-sum) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1872-stone-game-viii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1872-stone-game-viii) |
 | [1991-find-the-middle-index-in-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1991-find-the-middle-index-in-array) |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1563-stone-game-v) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1872-stone-game-viii) |
 | [1903-largest-odd-number-in-string](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1903-largest-odd-number-in-string) |
 | [1927-sum-game](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1927-sum-game) |
@@ -453,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2963-count-the-number-of-good-partitions](https://github.com/gauravabhishek4U/PrepDSA/tree/master/2963-count-the-number-of-good-partitions) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3312-sorted-gcd-pair-queries) |
