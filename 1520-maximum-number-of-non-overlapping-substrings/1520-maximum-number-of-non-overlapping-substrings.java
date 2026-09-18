@@ -4,76 +4,60 @@ class Solution {
 
         int[] first = new int[26];
         int[] last = new int[26];
-
         Arrays.fill(first, n);
         Arrays.fill(last, -1);
 
-        // Find first and last occurrence of every character
+        // Find first and last occurrence
         for (int i = 0; i < n; i++) {
-            int ch = s.charAt(i) - 'a';
-
-            if (first[ch] == n) {
-                first[ch] = i;
-            }
-
-            last[ch] = i;
+            int c = s.charAt(i) - 'a';
+            first[c] = Math.min(first[c], i);
+            last[c] = i;
         }
 
         List<int[]> intervals = new ArrayList<>();
 
-        // Build all valid intervals
-        for (int ch = 0; ch < 26; ch++) {
-            if (last[ch] == -1) {
-                continue;
-            }
+        // Build valid intervals
+        for (int c = 0; c < 26; c++) {
+            if (last[c] == -1) continue;
 
-            int start = first[ch];
-            int end = last[ch];
-
+            int l = first[c];
+            int r = last[c];
             boolean valid = true;
 
-            for (int i = start; i <= end; i++) {
-                int current = s.charAt(i) - 'a';
+            for (int i = l; i <= r; i++) {
+                int x = s.charAt(i) - 'a';
 
-                // Character appeared before our starting point
-                if (first[current] < start) {
+                // x has an occurrence before l
+                if (first[x] < l) {
                     valid = false;
                     break;
                 }
 
-                // Include all occurrences of this character
-                end = Math.max(end, last[current]);
+                // Must include all occurrences of x
+                r = Math.max(r, last[x]);
             }
 
-            if (valid) {
-                intervals.add(new int[]{start, end});
-            }
+            if (valid)
+                intervals.add(new int[]{r, l});
         }
 
-        // Sort by ending position
+        // Earliest ending interval first
         intervals.sort((a, b) -> {
-            if (a[1] != b[1]) {
-                return Integer.compare(a[1], b[1]);
-            }
-
-            return Integer.compare(a[1] - a[0], b[1] - b[0]);
+            if (a[0] != b[0]) return Integer.compare(a[0], b[0]);
+            return Integer.compare(a[1], b[1]);
         });
 
-        List<String> answer = new ArrayList<>();
+        List<String> ans = new ArrayList<>();
+        int prevEnd = -1;
 
-        int previousEnd = -1;
-
-        // Greedily select non-overlapping intervals
-        for (int[] interval : intervals) {
-            int start = interval[0];
-            int end = interval[1];
-
-            if (start > previousEnd) {
-                answer.add(s.substring(start, end + 1));
-                previousEnd = end;
+        for (int[] iv : intervals) {
+            int r = iv[0], l = iv[1];
+            if (l > prevEnd) {
+                ans.add(s.substring(l, r + 1));
+                prevEnd = r;
             }
         }
 
-        return answer;
+        return ans;
     }
 }
