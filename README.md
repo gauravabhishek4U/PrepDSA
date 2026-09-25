@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0472-concatenated-words](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0472-concatenated-words) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0977-squares-of-a-sorted-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0977-squares-of-a-sorted-array) |
+| [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0042-trapping-rain-water) |
 | [0316-remove-duplicate-letters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0316-remove-duplicate-letters) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0992-subarrays-with-k-different-integers) |
+| [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [1189-maximum-number-of-balloons](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1386-cinema-seat-allocation) |
@@ -451,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0680-valid-palindrome-ii) |
 | [0940-distinct-subsequences-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [1189-maximum-number-of-balloons](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1189-maximum-number-of-balloons) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1750-minimum-length-of-string-after-deleting-similar-ends](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1750-minimum-length-of-string-after-deleting-similar-ends) |
@@ -544,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [3310-remove-methods-from-project](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Graph Theory
@@ -554,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/0140-word-break-ii) |
+| [1096-brace-expansion-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/gauravabhishek4U/PrepDSA/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Nim Game
 |  |
