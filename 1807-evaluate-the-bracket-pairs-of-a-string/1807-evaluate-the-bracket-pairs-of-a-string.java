@@ -1,25 +1,21 @@
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
-        Map<String, String> knowledgeMap = new HashMap<>(knowledge.size());
+        HashMap<String, String> map = new HashMap<>();
 
-        for (List<String> pair : knowledge) {
-            knowledgeMap.put(pair.get(0), pair.get(1));
+        for (List<String> k : knowledge) {
+            map.put(k.get(0), k.get(1));
         }
 
-        StringBuilder result = new StringBuilder();
+        String[] words = s.split("[()]");
+        StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(') {
-                int closingBracketIndex = s.indexOf(')', i + 1);
-                String key = s.substring(i + 1, closingBracketIndex);
-
-                result.append(knowledgeMap.getOrDefault(key, "?"));
-                i = closingBracketIndex;
+        for (int i = 0; i < words.length; i++) {
+            if (i % 2 == 0) {
+                sb.append(words[i]);
             } else {
-                result.append(s.charAt(i));
+                sb.append(map.getOrDefault(words[i], "?"));
             }
         }
-
-        return result.toString();
+        return sb.toString();
     }
 }
